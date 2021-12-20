@@ -2,8 +2,8 @@
 
 title Resovled Replays - RReplays Resample
 
-set /A fps = 240
-set /A blendFrames = %fps% / 30
+set /a fps = 240
+set /a blendFrames = %fps% / 30
 
 for %%i in (*.mkv) do (
 	:: Use ffmpeg for resampling
