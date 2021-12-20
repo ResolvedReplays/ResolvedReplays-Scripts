@@ -90,7 +90,7 @@ for /f "usebackq delims=" %%l in (!configFile!) do (
 				:: Append the value to the array
 				set skins[!i!]=!trimedString!
 			)
-        )
+		)
 	)
 )
 
