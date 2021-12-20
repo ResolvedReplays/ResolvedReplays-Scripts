@@ -1,4 +1,7 @@
 @echo off
+
+title Resovled Replays - RReplays Resample
+
 set /A fps = 240
 set /A blendFrames = %fps% / 30
 
